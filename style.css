@@ -6,12 +6,33 @@ header {
     min-height: 600px; */
     
   }
-main {
-max-width: 300px;
-max-height: 800px;
-/* background-position: center; */
+  .nav-wrapper ul li a {
+    color: #000 !important;
+   }
+   nav.nav-center ul {
+    text-align: center;
 }
-main p {
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+main {
+  
+max-width: auto;
+max-height: auto;
+
+/* background-position: center; */
+top: 100px;
+}
+main img {
+  max-width: 100px;
+  max-height: 500px;
+  /* margin-left: 35%;
+  margin-right: 35%; */
   /* position: relative; */
   /* padding-left: 90%; */
 }
