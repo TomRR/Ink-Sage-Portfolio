@@ -19,9 +19,12 @@
 </head>
 
 <body>
-  <header>
-    <!-- transparent opacity =1 -->
-    <nav class="nav-wrapper transparent">
+  <!-- <header> -->
+          <header class="top-nav">
+      
+  
+    <div class="navbar-fixed">
+    <nav class="nav-wrapper navbar-fixed green black-text z-depth-0">
       <div class="container">
         <!-- need to initiales with JS -->
         <!-- <a href="" class="sidenav-trigger" data-target="mobile-menu"> -->
@@ -34,7 +37,7 @@
           <li><a href="#contact">Contact Me</a></li>
           <!-- tooltipped gibt informationen beim hover -->
           <!-- tooltipped information muss mit data-tooltip beigefuegt werden: -->
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4 hide-on-small-only" data-tooltip="Instagram">
               <i class="fab fa-instagram"></i>
             </a></li>
           <!-- <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
@@ -53,9 +56,12 @@
                     </ul> -->
       </div>
     </nav>
+  </div>
   </header>
 <main>
+  <div class="container center">
   <img src="image/logo.jpg" alt="" class="responsive-img center"/>
+</div>
 </main>
 
   <!-- services / tabs -->
@@ -348,67 +354,39 @@
 
 
 
-  <div class="row">
-    <div class="col s12">
-      <ul class="tabs transparent>
-        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-        <li class="tab col s3"><a href="#test3">Test 3</a></li>
-      </ul>
-    </div>
-    <div id="test1" class="col s12">Test 1</div>
-    <div id="test2" class="col s12">Test 2</div>
-    <div id="test3" class="col s12">Test 3</div>
-    <div id="test4" class="col s12">Test 4</div>
-  </div>
-  <div class="row">
-    <div class="col s12">
-      <ul class="tabs  pn-tabs  ">
-        <li class="tab pn-tab col s3"><a href="#inbox">By District Zone</a></li>
-        <li class="tab pn-tab col s3"><a class="active" href="#unread">Equipment Type
-                    </a></li>
-        <!--<li class = "tab col s3 disabled"><a href = "#outbox">
-                    Outbox (Disabled)</a></li>
-                 <li class = "tab col s3"><a href = "#sent">Sent</a></li>-->
-      </ul>
-    </div>
-  
-    <div id="inbox" class="col s12">Inbox</div>
-    <div id="unread" class="col s12">Unread</div>
-  
-  </div>
-
-
-
-
   <!-- *  -->
   <!-- footer -->
-  <footer class="page-footer grey darken-3">
-    <!-- <div class="container">
-              <div class="row">
-                <div class="col s12 l6">
-                  <h5>About Me</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni?</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni?</p>
-                </div>
-                <div class="col s12 l4 offset-l2">
-                  <h5>Connect</h5>
-                  <ul>
-                    <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div> -->
+ 
 
-    <div class="footer-copyright grey darken-4">
-      <div class="container center-align"><a href="#" class="">Impressum</a><br> &copy; 2019Nora Katharina Train. All rights reserved <br> Development and
-        design by <a href="#" class="">Tom - Robert Resing</a></div>
-    </div>
+  </footer> 
+  <footer class="page-footer grey darken-3 center-align">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <br>
+            <h5>Connect:</h5>
+          </div>
+          <div class="col s12 l4">         
+            <ul>
+              <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+              <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+              <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-  </footer <!-- Compiled and minified JavaScript -->
+      <div class="footer-copyright grey darken-4">
+          <div class="container ">
+            <a href="#" class="">Impressum</a>
+            <br> &copy; 2019 Ink & Sage. All rights reserved 
+            <br> Developed by 
+            <a href="#" class="">Tom - Robert Resing</a>
+          </div>
+        </div>
+
+    </footer>
+  <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script>
