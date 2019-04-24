@@ -28,3 +28,12 @@ main img {
 hr {
     width: 75%;
 }
+
+    .tabs .indicator {
+        background-color: #000;
+      }
+
+      .tabs .tab a:focus,
+      .tabs .tab a:focus.active {
+        background: transparent;
+      }
