@@ -158,36 +158,8 @@
       <div class="col s12" id="tattoo">
         <p class="flow-text black-text text-darken-4 hide-on-med-and-up">Tattoo Templets</p>
         <div class="row">
-          
           <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
-          </div>
-          <div class="col s12 m6 l3">
-            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed" /></p>
+            <p><img src="image/photo1.jpg" alt="" class="responsive-img materialboxed hoverable" /></p>
           </div>
         </div>
       </div>
@@ -201,17 +173,21 @@
   <section class="container section scrollspy" id="about">
     <div class="row">
 
+      <h2 class=" center-align">About Me</h2>
 
       <div class="row">
-        <div class="col s12 l4">
-            <h2 class="indigo-text text-darken-4 hide-on-large-only">About Me</h2>
+        <div class="col s12 m6 l4">
+    
+
 
           <!-- class resp-img to fix the container space of the image -->
           <!-- material box makes the image pop-up after clicking; need also initilized with JS -->
           <img src="image/photo31.jpg" alt="" class="responsive-img materialboxed" />
         </div>
-        <div class="col s12 l6 offset-l2">
-          <h2 class="indigo-text text-darken-4 hide-on-med-and-down">About Me</h2>
+        <div class="col s12 m6 l6 offset-l2 ">
+
+    
+        
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
             numquam. Fuga facere culpa voluptatum ducimus quo autem fugiat eum
@@ -237,17 +213,19 @@
       </div>
 
       <div class="row">
-          <div class="col s12 l4 push-l7 offset-s1">
+          <h2 class=" center-align hide-on-med-and-up">Work</h2>
+
+          <div class="col s12 m6 l4 push-l7 push-m6">
             <!-- class resp-img to fix the container space of the image -->
             <!-- material box makes the image pop-up after clicking; need also initilized with JS -->
             <img
               src="image/photo2.jpg"
               alt=""
-              class="responsive-img materialboxed"
+              class="responsive-img materialboxed hoverable"
             />
           </div>
-          <div class="col s12 l6 pull-l4">
-            <h2 class="indigo-text text-darken-4">Work</h2>
+          <div class="col s12 m6 l6 pull-l4 pull-m6">
+            <h2 class="hide-on-small-only">Work</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
               numquam. Fuga facere culpa voluptatum ducimus quo autem fugiat eum
@@ -273,7 +251,7 @@
   <section class="section container scrollspy center-align" id="contact">
     <!-- <div class="row">
           <div class="col s12 l5"> -->
-    <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+    <h2 class="text-darken-4">Get In Touch</h2>
     <p class="flow-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
       qui pariatur aspernatur necessitatibus!
@@ -343,35 +321,14 @@
             <a href="#" class="">Tom - Robert Resing</a>
           </div>
         </div>
-
     </footer>
+
+    
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script>
-
-
-    $(document).ready(function () {
-      // Navbar
-      $(".sidenav").sidenav();
-      // Material-boxes
-      $(".materialboxed").materialbox();
-      // Parallax
-      $(".parallax").parallax();
-      // Tabs
-      $(".tabs").tabs();
-      // datepicker
-      $(".datepicker").datepicker({
-        disableWeekends: true
-      });
-      // Tooltip
-      $(".tooltipped").tooltip();
-      // scrollspy - zu beachten hier: scrollSpy() mir großen S
-      $(".scrollspy").scrollSpy();
-
-      $('.timepicker').timepicker();
-    });
-  </script>
+  <script src="app.js"></script>
+ 
 </body>
 
 </html>
