@@ -1,9 +1,5 @@
 header {
-    /* background: url(image/logo.jpg);
-    /* background-size: cover; /*
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 600px; */
+ 
     
   }
   .nav-wrapper ul li a {
@@ -20,45 +16,14 @@ nav.nav-center ul li a {
     display: inline-block;
 }
 
-main {
-  
-max-width: auto;
-max-height: auto;
 
-/* background-position: center; */
-top: 100px;
-}
 main img {
-  max-width: 100px;
+  max-width: auto;
   max-height: 500px;
-  /* margin-left: 35%;
-  margin-right: 35%; */
-  /* position: relative; */
-  /* padding-left: 90%; */
+
 }
 
-  .tabs .tab.pn-tab {
-    border: 1px solid #e6e6e6;
-    -webkit-transform: perspective(19px) rotateX(90deg);
-    -moz-transform: perspective(2200px) rotateX(3deg);
-    background-color: #f2f2f2;
-    color: #5a5a5a!important;
-    /* text-transform: none!important; */
-  }
-  
-  .pn-tab a {
-    color: #333333 !important;
-  }
-  
-  .pn-tab .active {
-    background-image: linear-gradient(180deg, #767676 0%, #333333 100%);
-    z-index: 99!important;
-    color: #ffffff!important;
-  }
-  
-  .pn-tabs .indicator {
-    height: 0px!important;
-  }
+ 
 
 hr {
     width: 75%;
